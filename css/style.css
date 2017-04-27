@@ -1,0 +1,55 @@
+body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  margin-bottom: 50px;
+  color: #ffffff;
+  display: inline-block;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 9rem;
+  text-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
+
+p {
+  font-size: 1.75rem;
+  color: #000000;
+  line-height: 2.75rem;
+}
+
+.slide p {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+#section0 {
+  background: url("../images/bg.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+#section2 {
+  background: url("../images/lastbg.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+.intro, .section {
+  display: flex;
+  justify-content: center;
+}
+
+.fp-slidesNav.bottom {
+    bottom: 50px;
+}
+
+.author {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: italic;
+}
